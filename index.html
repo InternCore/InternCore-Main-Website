@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>InternCore</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="all,follow" />
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png" />
+  </head>
+  <body
+    class="scrollspy-example"
+    data-bs-spy="scroll"
+    data-bs-target="#navbar"
+    data-bs-offset="0"
+    tabindex="0"
+  >
+    <!-- navbar-->
+    <header class="header">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark position-absolute w-100"
+        id="navbar"
+      >
+        <div class="container">
+          <a class="navbar-brand d-block d-lg-none" href="#!"
+            ><img src="img/logo-1.jpg" alt="..." width="60"
+          /></a>
+          <button
+            class="navbar-toggler navbar-toggler-end"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span></span><span></span><span></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#hero">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Resume">Design Resume</a>
+              </li>
+              
+            </ul>
+            <ul class="navbar-nav d-none d-lg-block px-4">
+              <li class="nav-item m-0">
+                <a class="navbar-brand m-0" href="#!"
+                  ><img src="img/logo-1.jpg" alt="..." width="80"
+                /></a>
+              </li>
+            </ul>
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="resourse.html">Resources</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="signup_page.html">Join Us</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <!-- Hero Slider -->
+
+    <section class="text-center pt-lg-0 hero-home" id="hero">
+      <div
+        id="carouselDarkVariant"
+        class="carousel slide carousel-fade carousel-dark relative"
+        data-bs-ride="carousel"
+      >
+        <div
+          class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4"
+        >
+          <button
+            data-bs-target="#carouselDarkVariant"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          >
+        </button>
+          <button
+            data-bs-target="#carouselDarkVariant"
+            data-bs-slide-to="1"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            data-bs-target="#carouselDarkVariant"
+            data-bs-slide-to="2"
+            aria-label="Slide 1"
+          ></button>
+        </div>
+
+        <!-- Inner -->
+        <div class="carousel-inner relative w-full overflow-hidden">
+          <!-- Single item -->
+          <div class="carousel-item active relative float-left w-full">
+            <img
+              src="img/hero-bg-3.jpg"
+              class="block w-full"
+              alt="Motorbike Smoke"
+            />
+            <div
+              class="carousel-caption hidden md:block absolute text-center"
+              id="content"
+            >
+              <h3 class="text-xl">Let's switch to InternCore</h3>
+
+              <p>
+                <i
+                  >Here you get internships on basis of what you know not how much you know</i
+                >
+              </p>
+            </div>
+          </div>
+
+          <!-- Single item -->
+          <div class="carousel-item relative float-left w-full">
+            <img
+              src="img/hero-bg-2.jpg"
+              class="block w-full"
+              alt="Mountaintop"
+            />
+            <div
+              class="carousel-caption hidden md:block absolute text-center"
+              id="content"
+            >
+              <h5 class="text-xl">It's time to code</h5>
+              <p>
+                <i
+                  >Do not be embarrassed by your failures, learn from them and
+                  start again.</i
+                >
+              </p>
+            </div>
+          </div>
+
+          <!-- Single item -->
+          <div class="carousel-item relative float-left w-full">
+            <img
+              src="img/hero-bg-1.jpg"
+              class="block w-full"
+              alt="Woman Reading a Book"
+            />
+            <div
+              class="carousel-caption hidden md:block absolute text-center"
+              id="content"
+            >
+              <h5 class="text-xl">Novice to amateur</h5>
+              <p>
+                <i
+                  >Put your heart, mind, and soul into even your smallest acts.
+                  This is the secret of success.</i
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Controls -->
+        <button
+          class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+          type="button"
+          data-bs-target="#carouselDarkVariant"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon inline-block bg-no-repeat"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+       
+        <button
+          class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+          type="button"
+          data-bs-target="#carouselDarkVariant"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon "
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Features Section-->
+    <section id="features">
+      <div class="container-fluid p-0">
+        <div class="row p-0 text-center align-items-stretch g-0">
+          <div class="col-lg-3 col-md-6">
+            <div class="p-5 text-white h-100 bg-secondary">
+              <h3 class="h4">Who we are</h3>
+              <p class="mb-0 text-small">
+                A group of students who have vision to provide internship to
+                everyone especially freshers.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="p-5 text-white h-100 bg-primary-shade">
+              <h3 class="h4">What we do</h3>
+              <p class="mb-0 text-small">
+                We provide internship and assist for career goals.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 order-lg-3">
+            <div class="p-5 text-white h-100 bg-primary">
+              <h3 class="h4">Why InternCore</h3>
+              <p class="mb-0 text-small">
+                We give what is absent in Tier-2 and Tier-3 college
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 order-lg-4">
+            <div class="p-5 text-white h-100 bg-primary-shade">
+              <h3 class="h4">What's here for you</h3>
+              <p class="mb-0 text-small">
+                Internships on basis of what you know not how much you know
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section -->
+    <section class="py-5" id="services">
+      <div class="container py-5">
+        <header class="mb-4 text-center mb-5">
+          <p class="text-serif mb-0 text-primary">Explore Our Features</p>
+          <h2 class="text-uppercase">Key Features</h2>
+        </header>
+        <div class="row text-center gy-4">
+          <div class="col-lg-4">
+            <i class="fas text-primary mb-4 fa-3x fa-laptop-code"></i>
+            <h3 class="h5">RealTime Projects</h3>
+            <p class="text-muted">
+              Start local, get into action, digitalize society.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <i class="fas text-primary mb-4 fa-3x fa-user-tie"></i>
+            <h3 class="h5">Experience for All</h3>
+            <p class="text-muted">
+              Join a group, work on a RealTimeProject, gain experience, boost
+              confidence, and get pros.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <i class="fas text-primary mb-4 fa-3x fa-handshake"></i>
+            <h3 class="h5"><i>Mann ki baat with Mentor-Intern</i></h3>
+            <p class="text-muted">
+              One2One meeting with feedbacks, suggestions and assitance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Works Section-->
+    <section id="works">
+      <div class="container-fluid px-0">
+        <div class="row align-items-stretch">
+          <div
+            class="col-lg-6 half-page-banner bg-cover"
+            style="background: url(img/priest.jpg)"
+          ></div>
+          <div class="col-lg-6 bg-light py-lg-5">
+            <div class="h-100 d-flex flex-column p-5 justify-content-center">
+              <p class="text-serif text-primary mb-0">What we give to you</p>
+              <h2 class="text-uppercase"><i>Perks of InternCore!</i></h2>
+              <p>
+                Along with experience, we provide our interns a plethora of
+                benefits!!
+              </p>
+              <ol class="list">
+                <ui style="list-style-position: outside;">
+                  <p class="text-muted mb-2"> 
+                    <i class="text-primary me-3 fas fa-file" ></i> Registered Certificates to make your CV, CV ++.
+                  </p>
+                </ui>      
+                <ui>
+                  <p class="text-muted mb-2">
+                    <i class="text-primary me-3 fas fa-clock"></i>
+                    Flexible work-hour timings, to make your day more
+                    productive.
+                  </p>
+                </ui>
+                <ui>
+                  <!-- <i class="text-primary me-3 fas fa-bell"></i> -->
+                  <p class="text-muted mt-0">
+                    <i class="text-primary me-3 fas fa-bell"></i>
+                    Get latest news about various experience,knowledge based
+                    oppurtunities, which usually are hidden from you.
+                  </p>
+                </ui>
+              </ol>
+              <img class="mb-3" src="img/logo-1.jpg" alt="..." width="70" />
+              <h5 class="mb-0">InternCore</h5>
+              <!-- <p class="text-serif text-primary text-small mb-0">Lead Pasto</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- resourse Section -->
+    <section class="py-5" id="resourse">
+      <div class="container py-5">
+        <header class="mb-4 text-center mb-5">
+          <p class="text-serif mb-0 text-primary"></p>
+          <h2 class="text-uppercase">Resources to Refer</h2>
+        </header>
+        <div class="row gy-5">
+          <div class="col-lg-4">
+            <a
+              class="primary-overlay d-block mb-3"
+              href="resourse.html#web-d"
+            >
+              <div class="overlay-content">
+                <img
+                  class="img-fluid w-100"
+                  src="img/sermon-1.jpg"
+                  alt="..."
+                /></div
+            ></a>
+            <h4 class="mb-0">
+              <a class="reset-anchor" href="resourse.html#web-d">Web Development</a>
+            </h4>
+            <p class="text-serif text-primary text-small">
+              Web development is the face of internet, from ordering a cake, 
+              to checking your result, it all comes down to Web Development.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <a
+              class="primary-overlay d-block mb-3"
+              href="https://practice.geeksforgeeks.org/explore?page=1&curated[]=7&sortBy=submissions&curated_names[]=Love%20Babbar%20Sheet"
+            >
+              <div class="overlay-content">
+                <img
+                  class="img-fluid w-100"
+                  src="img/sermon-2.jpg"
+                  alt="..."
+                /></div
+            ></a>
+            <h4 class="mb-0">
+              <a class="reset-anchor" href="https://practice.geeksforgeeks.org/explore?page=1&curated[]=7&sortBy=submissions&curated_names[]=Love%20Babbar%20Sheet"
+                >Data Structures and Algorithm</a
+              >
+            </h4>
+            <p class="text-serif text-primary text-small">
+              As we shift towards a digital globe, we have zillions tera-bytes of data, it becomes useful to know
+              which type of data structure are to be used, to search through brilliant, efficient algorithms.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <a class="primary-overlay d-block mb-3" href="resourse.html">
+              <div class="overlay-content">
+                <img class="img-fluid w-100" src="img/sermon-3.jpg" alt="..." />
+              </div>
+            </a>
+            <h4 class="mb-0">
+              <a class="reset-anchor" href="resourse.html">Learn More</a>
+              <i class="fa-solid fa-ellipsis"></i>
+            </h4>
+            <p class="text-serif text-primary text-small"></p>
+          </div>
+        </div>
+      </div>
+      <div></div>
+    </section>
+    <!-- Join us as Intern Section -->
+    <section
+      class="bg-cover bg-fixed shadow-inner"
+      id="join us"
+      style="background: url(img/divider-img.jpg)"
+    >
+      <div class="primary-overlay py-5 opacity-10">
+        <div class="overlay-content z-index-20 position-relative py-5">
+          <div class="container py-5 text-white text-center">
+            <p class="lead text-serif mb-1">
+              Unlock the best version of your career
+            </p>
+            <h1 class="text-xl text-shadow mb-5">Join us as an Intern</h1>
+            <a
+              class="btn btn-primary px-4 mt-3"
+              href="signup_page.html"
+              style="color: white"
+              >Join now</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section-->
+    <section class="bg-primary-shade text-white py-5" id="events">
+      <div class="container text-center">
+        <div class="row align-items-center">
+          <div class="col-lg-9 text-lg-start  mb-4 mb-lg-0">
+            <h2 class="mb-0 text-uppercase">About us</h2>
+          </div>
+           <!-- <div class="col-lg-6 text-center mb-4 mb-lg-0">
+            <p class="text-serif">Experience God’s Presence</p>
+            <div
+              class="p-2 counter event-counter d-flex align-items-center justify-content-center text-center"
+              data-counter=".event-counter"
+              data-date="Sat Dec 26 2021 11:12:29 GMT"
+            >
+              <div class="day counter-item text-center mx-3">
+                <p class="h2 num"></p>
+                <span class="word text-serif">Days</span>
+              </div>
+              <div class="hour counter-item text-center mx-3">
+                <p class="h2 num"></p>
+                <span class="word text-serif">Hours</span>
+              </div>
+              <div class="min counter-item text-center mx-3">
+                <p class="h2 num"></p>
+                <span class="word text-serif">Minutes</span>
+              </div>
+              <div class="sec counter-item text-center mx-3">
+                <p class="h2 num"></p>
+                <span class="word text-serif">Seconds</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center mb-4 mb-lg-0">
+            <p class="text-small">We are five student team member who beleive that <b>what you know is important</b>for doing any project. We beleive in the potential you have. Having extra knowledge is good but not must for the particular project. So, we provide internship on the basis of if you know the particular field which is required for the particular project.</p> 
+
+          </div> -->
+          
+          <div class="col-lg-3 text-lg-end">
+            <a class="btn btn-outline-light px-4" href="aboutus.html"
+              >Know more</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Resume Section-->
+    <section id="Resume">
+      <div class="container-fluid px-0">
+        
+        <div class="row align-items-stretch">
+          
+          <div class="col-lg-6 bg-light py-lg-5 order-2 order-lg-1">
+            <div style="padding-left: 10%; padding-top:5%; padding-right:10%;">
+              <div class="w-100">
+                <div class="row">
+                  <div class=" bg-light">
+                    <div class="h-100 d-flex flex-column">
+                      <p class="text-serif text-primary mb-0">Build and Create</p>
+                      <h2 class="text-uppercase"><i>Resume</i></h2>
+                      <p>
+                        Points to Keep in Mind When you are building Your Resume.
+                      </p>
+                      <ol class="list">
+                        <ui>
+                          <p class="mb-0 text-muted mb-2 ">
+                            <i class="fa-solid fa-circle-dot"></i> &nbsp; Keep it brief - usually two pages maximum.
+                          </p>
+                        </ui>      
+                        <ui>
+                          <p class="mb-0 text-muted mb-">
+                            <i class="fa-solid fa-circle-dot"></i>
+                            &nbsp;  List your career history in reverse chronological order. Don’t forget to include a short note to explain any gaps.
+                          </p>
+                        </ui>
+                        <ui>
+                          <p class="mb-0 text-muted mb-2">
+                            <i class="fa-solid fa-circle-dot"></i>
+                            &nbsp; Use bullet points for achievements and responsibilities – include more detail on recent roles and less on older ones, unless they are particularly relevant to the job you are applying for.
+                          </p>
+                        </ui>
+                        <ui>
+                          <p class="mb-0 text-muted mb-2">
+                            <i class="fa-solid fa-circle-dot"></i>
+                            &nbsp;  List educational institutions and qualifications in reverse chronological order.</p>
+                        </ui>
+                        <ui>
+                          <p class="mb-0 text-muted mb-2">
+                            <i class="fa-solid fa-circle-dot"></i>
+                            &nbsp; Include computer skills, language skills, and any relevant training.</ui>
+                          </ol>
+                      <!-- <p class="text-serif text-primary text-small mb-0">Lead Pasto</p> -->
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="d-block">
+                  <a class="btn btn-primary px-4"
+                    href="https://docs.google.com/document/d/1HMuB_kwye50vj1r_r_hpJOqhbUI1I96IG9OgWIk95Ig/edit"
+                    style="border-color: black"
+                    target="_blank"
+                    >Create Resume</a>
+                </t>
+                  <a class="btn btn-primary px-4"
+                      href="https://resumeworded.com/upload-resume.php"
+                      style="border-color: black"
+                      target="_blank"
+                      >Check Resume Score</a>                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 half-page-banner bg-cover bg-center order-1 order-lg-2"
+            style="background: url(img/img-donation.jpg)"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section-->
+    <section class="py-5" id="contact">
+      <div class="container py-5">
+        <header class="mb-4 mb-5 text-center">
+          <p class="text-serif mb-0 text-primary">Where to find us</p>
+          <h2 class="text-uppercase">Reach us</h2>
+          <div class="row">
+            <div class="col-lg-7 mx-auto">
+              <p class="text-muted"></p>
+            </div>
+          </div>
+        </header>
+        <div class="row align-items-stretch gx-0">
+          <div class="col-lg-6">
+            <div
+              class="contact-img bg-center bg-cover"
+              style="background: url(img/contact-bg.jpg)"
+            ></div>
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-light p-5 h-100">
+              <h4>InternCore</h4>
+              <p class="text-muted">
+                If you have any questions or queries any member from us will
+                always be happy to help. Feel free to contact through Email or
+                Linkedin or Instagram and we will be sure to get back to you as
+                soon as possible.
+              </p>
+              <ul class="list-unstyled mb-0 text-muted">
+                <li class="mb-2">
+                  <a
+                    class="reset-anchor"
+                    href="https://www.instagram.com/we.interncore/"
+                    target="_blank"
+                  >
+                    <i class="text-primary me-3 fab fa-instagram"></i>
+                    <span>Reach us on Instagram</span></a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a class="reset-anchor" href="https://www.linkedin.com/company/interncore/" target="_blank">
+                    <i class="text-primary me-3 fab fa-linkedin-in"></i
+                    ><span> Reach us on Linkedin</span></a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a class="reset-anchor" href="mailto:we.interncore@gmail.com" target="_blank">
+                    <i class="text-primary me-3 far fa-envelope"></i
+                    ><span>Reach us on Email</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Clients Section-->
+    <section class="pb-5">
+      <!-- <div class="container pb-5">
+        <div class="row align-items-center text-center gy-2">
+          <div class="col-lg-3 col-sm-6"><img src="img/logo-1.jpg" alt="..." width="120"></div>
+          <div class="col-lg-3 col-sm-6"><img src="img/logo-1.jpg" alt="..." width="120"></div>
+          <div class="col-lg-3 col-sm-6"><img src="img/logo-1.jpg" alt="..." width="120"></div>
+          <div class="col-lg-3 col-sm-6"><img src="img/logo-1.jpg" alt="..." width="120"></div>
+        </div>
+      </div> -->
+    </section>
+    <!-- Scroll Top Button--><a class="scroll-top" href="#"
+      ><i class="fas fa-long-arrow-alt-up"></i
+    ></a>
+      
+       
+
+
+
+
+
+
+      <!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-white " >
+  <!-- Section: Social media -->
+  
+  <section class="d-flex justify-content-center  p-4 border-bottom">
+    <div>
+      <a href="" target="_blank" class="me-4 text-reset">
+        <i class="fab fa-facebook-f "></i>
+      </a>
+      <a href="https://twitter.com/home" target="_blank" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" target="_blank" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="https://www.instagram.com/" target="_blank" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/feed/" target="_blank" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" target="_blank" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 text-c">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Resourses To Refer
+          </h6>
+          <p>
+            <a href="resourse.html#web-d" class="text-reset">Web-Development</a>
+          </p>
+          <p>
+            <a href="resourse.html#app-d" class="text-reset">Android-Development</a>
+          </p>
+          <p>
+            <a href="resourse.html#graphic-designing" class="text-reset">Graphic-Designing</a>
+          </p>
+          <p>
+            <a href="resourse.html#placement-training" class="text-reset">Placement-Training</a>
+          </p>
+        </div>
+
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <img src="img/logo-1.jpg" style="height:25px ; width:25px;"> InternCore
+          </h6>
+          <p>
+            Thanks for your interest in InternCore. For more information, feel
+              free to get in touch and we will get back to you soon!
+          </p>
+        </div>
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            we.interncore@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+        
+      </div>
+      <!-- Grid row -->
+      
+    </div>
+  </section>
+  <!-- <div class="input-group">
+    <input type="text" class="form-control bg-none" placeholder="We would love to hear from you about us" aria-label="feedback" style="text-align:center;color: white;">
+    <div class="input-group-append">
+      <span class="input-group-text bg-none" id="basic-addon2"><i class="fa-solid fa-2x fa-arrow-right" style="color: white;"></i></span>
+    </div>
+  </div> --> 
+<!-- </section> -->
+</footer>
+        
+    
+    <!-- JavaScript files-->
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+</html>
